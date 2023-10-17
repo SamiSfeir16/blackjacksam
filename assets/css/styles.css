@@ -1,0 +1,107 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+html,
+body {
+    margin: 0;
+    background-color: #2F4F30;
+    color: white;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+#botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-block-start: .5rem;
+}
+
+
+.main {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .main {
+        margin: 4rem auto 0 auto;
+        padding: 4rem 2.5em;
+    }
+}
+
+.main__flex {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 768px) {
+    .main__flex {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.carta {
+    position: relative;
+    width: 12rem;
+    left: 10rem;
+    margin-left: -7.5rem;
+    box-shadow: -7px 6px 11px -5px black;
+    overflow: hidden;
+    margin-top: .5rem;
+
+
+}
+
+@media (min-width: 768px) {
+    .carta {
+        width: 15rem;
+        left: 10rem;
+        margin-left: -7.5rem;
+        box-shadow: -7px 6px 11px -5px black;
+        overflow: hidden;
+        margin-top: .5rem;
+
+    }
+}
+
+
+
+#bot-cards,
+#player-cards {
+    height: 25rem;
+
+}
